@@ -3,7 +3,7 @@ package no.hvl.dat108.oppgave1;
 import javax.swing.*;
 
 public class Oppgave1  {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         Thread tPrint = new Thread("") {
             @Override
@@ -34,6 +34,5 @@ public class Oppgave1  {
         };
 
         tRead.start();
-
     }
 }

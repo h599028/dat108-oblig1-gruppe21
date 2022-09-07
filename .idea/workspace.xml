@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ba56edd-1c0d-4c68-8eb3-1906f883db1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave1/Oppgave1.java" afterDir="false" />
+    <list default="true" id="5ba56edd-1c0d-4c68-8eb3-1906f883db1e" name="Changes" comment="lagt til klasser til oppgave 2">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave1/Oppgave1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave1/Oppgave1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/HamburgerBrett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/HamburgerBrett.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Kokk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Kokk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Servitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Servitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/no/hvl/dat108/oppgave1/Oppgave1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Hamburger.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/HamburgerBrett.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Kokk.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Servitor.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,14 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "IntelliLang.Configuration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="no.hvl.dat108.oppgave1" />
@@ -55,8 +64,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661784819702</updated>
-      <workItem from="1661784821273" duration="3607000" />
+      <workItem from="1661784821273" duration="11119000" />
+      <workItem from="1662159990037" duration="35000" />
+      <workItem from="1662370252674" duration="39000" />
+      <workItem from="1662539623087" duration="437000" />
     </task>
+    <task id="LOCAL-00001" summary="Oppgave1 fullført">
+      <created>1661933555859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661933555859</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lagt til klasser til oppgave 2">
+      <created>1661935636146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661935636146</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +99,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Oppgave1 fullført" />
+    <MESSAGE value="lagt til klasser til oppgave 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lagt til klasser til oppgave 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
