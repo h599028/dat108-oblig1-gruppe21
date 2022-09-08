@@ -18,12 +18,20 @@ public class Servitor extends Thread {
         boolean stop = false;
         while (!stop) {
             int waitTime = rand.nextInt(5)+2;
-            brett.takeBurger();
+            synchronized (brett) {
+                if(brett.empty()) {
+                   System.out.print(navn + " (Servitor) ønsker å ta hamburger, men brett tomt. Venter! \n");
+                }
+                System.out.print(navn + " (Servitor) tar av hamburger " + brett.takeBurger().burgerToString() + ". Brett: "
+                        + brett.toStringBrett() + "\n");
+                 
+            }
             try {
                 Thread.sleep(waitTime * 1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+         //   brett.printBrett();
         }
     }
 }

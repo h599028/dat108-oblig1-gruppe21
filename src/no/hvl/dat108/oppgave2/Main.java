@@ -19,7 +19,7 @@ public class Main {
     }
 
      static void skrivUtHeader(String[] kokker, String[] servitorer, int kapasitet) {
-        System.out.printf("I denne simuleringen har vi %d kokker %s %d servitører %s Kapasiteten til brettet er %d hamburgere. ", kokker.length, arrToString(kokker), servitorer.length, arrToString(servitorer), kapasitet);
+        System.out.printf("I denne simuleringen har vi %d kokker %s %d servitører %s Kapasiteten til brettet er %d hamburgere. \n", kokker.length, arrToString(kokker), servitorer.length, arrToString(servitorer), kapasitet);
     }
 
     private static String arrToString(String[] arr) {

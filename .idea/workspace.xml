@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ba56edd-1c0d-4c68-8eb3-1906f883db1e" name="Changes" comment="lagt til klasser til oppgave 2">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Main.java" afterDir="false" />
+    <list default="true" id="5ba56edd-1c0d-4c68-8eb3-1906f883db1e" name="Changes" comment="prøver å få det til å passe med eclipse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave1/Oppgave1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave1/Oppgave1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Hamburger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/HamburgerBrett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/HamburgerBrett.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Kokk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Kokk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Servitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/oppgave2/Servitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,10 @@
       <workItem from="1661784821273" duration="11119000" />
       <workItem from="1662159990037" duration="35000" />
       <workItem from="1662370252674" duration="39000" />
-      <workItem from="1662539623087" duration="437000" />
+      <workItem from="1662539623087" duration="938000" />
+      <workItem from="1662541378947" duration="5000" />
+      <workItem from="1662542736197" duration="245000" />
+      <workItem from="1662543745398" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="Oppgave1 fullført">
       <created>1661933555859</created>
@@ -83,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661935636146</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prøver å få det til å passe med eclipse">
+      <created>1662540198495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662540198495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Oppgave1 fullført" />
     <MESSAGE value="lagt til klasser til oppgave 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lagt til klasser til oppgave 2" />
+    <MESSAGE value="prøver å få det til å passe med eclipse" />
+    <option name="LAST_COMMIT_MESSAGE" value="prøver å få det til å passe med eclipse" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

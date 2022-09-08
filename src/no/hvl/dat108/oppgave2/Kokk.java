@@ -8,8 +8,7 @@ public class Kokk extends Thread {
 
     Random rand = new Random(741209124);
 
-
-    Kokk(String navn,  HamburgerBrett brett) {
+    Kokk(String navn, HamburgerBrett brett) {
         this.navn = navn;
         this.brett = brett;
     }
@@ -18,15 +17,23 @@ public class Kokk extends Thread {
     public void run() {
         boolean stop = false;
         while (!stop) {
-            int waitTime = rand.nextInt(5)+2;
-            brett.addBurger();
+            int waitTime = rand.nextInt(10) + 2;
+            Hamburger hamb = new Hamburger(brett.nextNr());
+            synchronized (brett) {
+                if (brett.full()) {
+                    System.out.print(navn + " (Kokk) klar med hamburger, men brett er fullt. Venter! \n");
+                }
+                brett.addBurger(hamb);
+                System.out.print(navn + " (Kokk) legger på hamburger " + hamb.burgerToString() + ". Brett: "
+                        + brett.toStringBrett() + "\n");
+            }
             try {
                 Thread.sleep(waitTime * 1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
 
-            brett.printBrett();
         }
+
     }
 }
